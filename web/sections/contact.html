@@ -1,0 +1,104 @@
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact" class="contact section-padding">
+    <div class="section-header reveal-on-scroll">
+        <span class="section-badge">Contact</span>
+        <h2 class="section-title">Get in <span class="gradient-text">Touch</span></h2>
+        <p class="section-desc">Have a question, opportunity, or project proposal? Send a message directly.</p>
+        <div class="section-underline"></div>
+    </div>
+
+    <div class="contact-container">
+        <div class="contact-info-panel reveal-on-scroll">
+            <div class="contact-intro">
+                <h3>Let's talk about your next project</h3>
+                <p>I am open to software development internships, freelance projects, and technical collaboration. Send a note and I will get back to you promptly.</p>
+            </div>
+
+            <div class="contact-cards-list">
+                <div class="contact-item-card spotlight-card" id="emailCard">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-text">
+                        <span class="contact-label">Email Me</span>
+                        <a href="mailto:subarnachaudhary16@gmail.com" class="contact-val">subarnachaudhary16@gmail.com</a>
+                    </div>
+                    <button class="copy-action-btn" title="Copy email address" aria-label="Copy Email">
+                        <i class="far fa-copy"></i>
+                    </button>
+                </div>
+
+                <div class="contact-item-card spotlight-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-location-dot"></i>
+                    </div>
+                    <div class="contact-text">
+                        <span class="contact-label">Location</span>
+                        <span class="contact-val">Nepal (Open to Remote Worldwide)</span>
+                    </div>
+                </div>
+
+                <div class="contact-item-card spotlight-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="contact-text">
+                        <span class="contact-label">Response Time</span>
+                        <span class="contact-val">Within 24 Hours</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social-box">
+                <h4>Follow My Journey</h4>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/subarna-chaudhary-1151063a5/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://x.com/subarna_07" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/crosslox_019/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-panel reveal-on-scroll">
+            <form id="contactForm" class="contact-form spotlight-card" action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="c214de7b-eae6-44b1-8d75-5f14b7202372">
+                <input type="hidden" name="from_name" value="Subarna Portfolio Contact Form">
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                <div class="form-row">
+                    <div class="form-group floating-group">
+                        <input type="text" id="senderName" name="name" class="form-input" placeholder=" " required>
+                        <label for="senderName" class="floating-label"><i class="fas fa-user"></i> Your Name</label>
+                    </div>
+
+                    <div class="form-group floating-group">
+                        <input type="email" id="senderEmail" name="email" class="form-input" placeholder=" " required>
+                        <label for="senderEmail" class="floating-label"><i class="fas fa-envelope"></i> Your Email</label>
+                    </div>
+                </div>
+
+                <div class="form-group floating-group">
+                    <input type="text" id="senderSubject" name="subject" class="form-input" placeholder=" " required>
+                    <label for="senderSubject" class="floating-label"><i class="fas fa-tag"></i> Subject</label>
+                </div>
+
+                <div class="form-group floating-group">
+                    <textarea id="senderMessage" name="message" rows="5" class="form-input form-textarea" placeholder=" " required></textarea>
+                    <label for="senderMessage" class="floating-label"><i class="fas fa-comment-dots"></i> Your Message</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">
+                    <span class="btn-text">Send Message</span>
+                    <i class="fas fa-paper-plane btn-icon"></i>
+                    <span class="btn-spinner" style="display: none;"><i class="fas fa-circle-notch fa-spin"></i></span>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
